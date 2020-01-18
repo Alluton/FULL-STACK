@@ -1,0 +1,16 @@
+title 0.6 sekvenssikaavio
+
+note over selain:
+Sivun javascript muokkaa muokkaa sivun HTML-koodia siten,
+että uusi note lisätään listaan
+end note
+
+selain->palvelin: HTTP POST http://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over palvelin:
+Palvelin päivittäisi uuden noten myös tietokantaan (mutta tämä sovellus ei tee sitä)
+
+end note
+
+
+
